@@ -46,6 +46,7 @@ section.xlarge { padding: 10rem 0; }
 	position: absolute;
 	top: 0;
 	left: 0;
+	width: 100%;
 	box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
 	z-index: 2;
 	transition: all 0.5s ease-in-out;
@@ -208,18 +209,18 @@ section.xlarge { padding: 10rem 0; }
 		height: 100%;
 		overflow-x: hidden;
 	}
-	
+
 	.site-wrapper.opened { left: 200px; }
 	.mobile-nav-toggle { display: flex; }
-	
+
 	.top-nav {
 		background-color: white;
 	}
-	
+
 	.top-nav .my-logo {
 		color: #4169e1;
 	}
-	
+
 	.top-nav .nav-links,
 	.top-nav.nav-bg .nav-links {
 		position: absolute;
@@ -231,14 +232,14 @@ section.xlarge { padding: 10rem 0; }
 	}
 	.site-wrapper.opened .top-nav .nav-links,
 	.site-wrapper.opened .top-nav.nav-bg .nav-links { left: 0; }
-	
+
 	.top-nav .nav-links li,
 	.top-nav.nav-bg .nav-links li { display: block; }
 	.top-nav .nav-links li > a,
 	.top-nav.nav-bg .nav-links li > a { color: #aaa; }
 	.top-nav .nav-links li > a:hover,
 	.top-nav.nav-bg .nav-links li > a:hover { background: transparent; color: white; }
-	
+
 	.splash h1 { font-size: 3rem; }
 	.splash h2 { font-size: 0.8rem; letter-spacing: 1.25rem; text-indent: 1.25rem; }
 }
